@@ -31,7 +31,7 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
             title: "The Premier Residency"
         },
         {
-            image: "jayam",
+            image: "raju-album",
             title: "Jayam Real Estates Logo"
         },
         {
@@ -79,11 +79,11 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
             title: "UI Round Menu"
         },
         {
-            image: "map1",
+            image: "raju-bro",
             title: "Route Map"
         },
         {
-            image: "map2",
+            image: "zplus",
             title: "Route Map"
         }
     ];

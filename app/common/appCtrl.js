@@ -95,15 +95,15 @@ function ($rootScope, $scope, $state, $location, Flash,appSettings) {
     //available layouts
     vm.layouts = [
         {
-            name: "Boxed",
+            name: "排版",
             layout: "layout-boxed"
         },
         {
-            name: "Fixed",
+            name: "固定",
             layout: "fixed"
         },
         {
-            name: "Sidebar Collapse",
+            name: "侧边栏隐藏",
             layout: "sidebar-collapse"
         },
     ];
@@ -112,47 +112,47 @@ function ($rootScope, $scope, $state, $location, Flash,appSettings) {
     //Main menu items of the dashboard
     vm.menuItems = [
         {
-            title: "Dashboard",
+            title: "仪表盘",
             icon: "dashboard",
             state: "dashboard"
         },
         {
-            title: "Skills",
+            title: "技能",
             icon: "gears",
             state: "skills"
         },
         {
-            title: "Education",
+            title: "学历",
             icon: "graduation-cap",
             state: "education"
         },
         {
-            title: "Experience",
+            title: "体验",
             icon: "suitcase",
             state: "experience"
         },
         {
-            title: "Recent Projects",
+            title: "最近的项目",
             icon: "file-code-o",
             state: "recent"
         },
         {
-            title: "Websites",
+            title: "网站",
             icon: "globe",
             state: "websites"
         },
         {
-            title: "Portfolio",
+            title: "作品集",
             icon: "anchor",
             state: "portfolio"
         },
         {
-            title: "About Me",
+            title: "关于我们",
             icon: "user-secret",
             state: "about"
         },
         {
-            title: "Contact",
+            title: "联系方式",
             icon: "phone",
             state: "contact"
         }
